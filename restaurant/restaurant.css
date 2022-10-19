@@ -1,0 +1,661 @@
+* {
+    box-sizing: border-box;
+  
+  }
+  
+  body {
+  
+  
+    width: 100%;
+    height: 100%;
+    margin-right: 0pc;
+  
+  }
+  .navbar-brand  strong{
+    color:rgb(94, 54, 54);
+  }
+  
+  .navbar-brand span{
+  color:rgb(199, 51, 51);
+  
+  }
+  
+  
+  .motion {
+    background-image: url(../restaurant/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0px;
+    /* nnnnnnnnnnnnnnnnnn */
+    margin-top: 0px;
+    width: 100%;
+  
+    /* opacity: 11; */
+    text-align: center;
+    /* justify-content: center; */
+    font-weight: 300;
+  
+  
+  }
+  
+  .motion .imaaa {
+  
+    text-align: center;
+    justify-content: center;
+    font-weight: 300;
+  
+  
+  
+  }
+  
+  
+  .motion .layer {
+  
+    width: 100%;
+    height: 100%;
+    margin-top: -100px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 300;
+    background-color: rgba(20, 19, 19, 0.699);
+  
+  
+  
+  
+  }
+  
+  
+  
+  .motion .imaaa {
+    /* padding-top: 100px;  */
+    text-align: center;
+    justify-content: center;
+    /* color: aliceblue; */
+    padding-bottom: 500px;
+  
+  }
+  
+  
+  
+  .motion .imaaa h1 {
+  
+  
+  
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: aliceblue;
+    padding-top: 300px;
+    font-style: oblique;
+  
+  }
+  
+  .motion .imaaa p {
+  
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+  }
+  
+  .motion .imaaa span {
+    color: aliceblue;
+    background-color: inherit;
+    width: 100%;
+    border: 1px solid rgb(196, 195, 189);
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: rgba(20, 19, 19, 0.575);
+    padding: 15px;
+  
+  
+  }
+  
+  
+  
+  
+  .page2 {
+  
+  
+    background-color: rgba(228, 218, 196, 0.836);
+    width: 100%;
+    padding-top: 100px;
+  
+  
+    padding-bottom: 100px;
+  }
+  
+  .page2 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+  
+  
+  .page2 .container div {
+    width: 45%;
+  }
+  
+  .notes {
+  
+    text-align: left;
+    padding-bottom: 70px;
+  
+  }
+  
+  
+  .divimg {
+  
+    justify-content: right;
+  
+  }
+  
+  
+  .page2 h1 {
+    font-style: oblique;
+  }
+  
+  .page2 p {
+    font-style: oblique;
+  }
+  
+  .imo {
+    /* width: 100%; */
+    width: 65%;
+    /* height: 420px;  */
+    justify-content: center;
+    border-radius: 4px;
+    padding-top: 10px;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+  
+  }
+  
+  
+  
+  /* nnnnnnnnnnnnnnnnnnnnnnnnnnnn */
+  
+  .ooo {
+      margin-top: 20px; 
+    background-image: url(./back6.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+    /* width: 100%; */
+  
+    /* display: flex; */
+    padding-bottom: 200px;
+    /* margin-bottom: 400px;  */
+  
+  }
+  
+  
+  .ooo h1 {
+  
+  
+    color: aliceblue;
+    font-style: oblique;
+    font-weight: 100;
+    text-align: center;
+  
+  
+  }
+  
+  .ooo p {
+    color: azure;
+    font-style: oblique;
+    font-weight: 100;
+    text-align: center;
+  }
+  
+  .content h3 {
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  .ooo h2 {
+    display: block;
+    text-align: center;
+    justify-content: center;
+  
+  }
+  
+  .ooo .par {
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+  
+  }
+  
+  .ooo .content div:hover {
+   
+   
+    box-shadow: 10px 10px 10px 5px whitesmoke;
+    transition: all .75s;
+  }
+  
+  .content {
+    padding-top: 200px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+  }
+  
+  .card1 {
+    padding-left: 15px;
+    text-align: start;
+    border-top-left-radius: 20px solid cornsilk;
+    border-bottom: 2px solid rgb(253, 252, 253);
+    border-top: 2px solid rgb(248, 247, 250);
+    border-left: 2px solid rgb(251, 251, 252);
+    box-shadow: 200px;
+    /* margin-bottom: 400px; */
+  }
+  
+  .card2 {
+    border-top: 2px solid rgb(252, 250, 249);
+    border-bottom: 2px solid rgb(245, 243, 242);
+    border-left: 2px solid rgb(255, 252, 249);
+    /* margin-bottom: 400px; */
+  }
+  
+  .card3 {
+  
+    padding-right: 15px;
+    border-top: 2px solid rgb(247, 243, 241);
+    border-bottom: 2px solid rgb(250, 247, 245);
+    border-right: 2px solid rgb(252, 251, 250);
+  }
+  
+  /* }nnnnnnnnnnnnnnnnnnnnnnnnnnnn */
+  
+  
+  .new {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(77, 87, 82);
+     margin-top: 20px; 
+  }
+  
+  .next h3 {
+
+    text-align: center;
+    justify-content: center;
+    color: black;
+  }
+  .new h1 {
+    padding-bottom: 150px;
+    text-align: center;
+    font-style: oblique;
+    text-transform: capitalize;
+    color: aliceblue;
+    padding-top: 50px;
+    margin-top: 0px !important;
+  
+  }
+  
+  
+  .moon {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .d-block {
+    width: 80%;
+    margin: auto;
+     border-bottom-left-radius: 2000px;
+    border-top-right-radius: 2000px;
+    border-bottom-right-radius: 2000px;
+    border-top-left-radius: 2000px; 
+  }
+  
+  
+  
+  .new .onn {
+  
+    background-color: rgb(77, 87, 82);
+    width: 100%;
+  
+  }
+  
+  .onn h3 {
+    text-align: center;
+    text-transform: capitalize;
+  
+  }
+  
+  .onn h1 {
+    /* margin-bottom: 50px; */
+    color: aliceblue;
+    font-weight: 200;
+    text-transform: capitalize;
+    font-style: oblique;
+  }
+  
+  .onn h2 {
+    width: 100%;
+    color: aliceblue;
+    font-weight: 200;
+    text-transform: capitalize;
+    font-style: oblique;
+  }
+  
+  .aa div:hover {
+  
+    border: none;
+    box-shadow: 10px 10px 10px 5px whitesmoke;
+    transition: all .75s;
+  
+  }
+  
+  .onn p {
+    color: aliceblue;
+    font-weight: 200;
+    text-transform: capitalize;
+    font-style: oblique;
+  }
+  
+  
+  @media (max-width:768px) {
+  
+    .page2 .container .divimg,
+    .page2 .container .notes {
+        width: 100% !important;
+  
+    }
+  
+    .more  {
+   align-items: center;
+   overflow-x:hidden ;
+   
+  
+   width: 100%;
+   box-sizing: border-box;
+    }
+   .more  .card{
+    width: 290px;
+     
+    }
+    .tab-content {
+        
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        
+  
+    }
+  
+    .tap-pane .a
+   
+    .a .divimg,
+    .page2 .container .divimg .imo {
+  
+        width: 100%;
+        height: 100%;
+  
+    }
+  
+    .page2 .container {
+        flex-wrap: wrap;
+    }
+  
+    .ooo {
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+  
+    }
+  
+    .ooo .content {
+        flex-wrap: wrap;
+    }
+  
+    .ooo .content .card1,
+    .ooo .content .card2,
+    .ooo .content .card3 {
+        width: 250px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+  
+  
+  
+    }
+  
+    .ooo .content {
+        display: flex;
+        flex-direction: column;
+  
+    }
+  
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+  
+    }
+  
+   
+  
+  
+  
+  }
+  
+  
+  
+  .aa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    flex-wrap: wrap;
+   
+    text-transform: capitalize;
+    color: aliceblue;
+    padding-bottom: 100px;
+    width: 100%;
+  
+  }
+  
+  .aa div {
+    margin: auto;
+    width: 290px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .a {
+    text-align: center;
+    justify-content: center;
+  
+  }
+  
+  .a p {
+    padding-top: 10px;
+    font-style: unset;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: medium;
+  
+  }
+  
+  .b {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .b p {
+    padding-top: 10px;
+    font-style: unset;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: medium;
+  }
+  
+  .c {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .c p {
+    padding-top: 10px;
+    font-style: unset;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: medium;
+  }
+  
+  .onn h1 {
+    padding-bottom: 0ex;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 100px;
+    font-style: oblique;
+    padding-top: 20px;
+  }
+  
+  .bb {
+    padding-bottom: 1000px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+  
+    text-transform: capitalize;
+    color: aliceblue;
+    padding-bottom: 100px;
+  }
+  
+  .as {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+  }
+  
+  
+  .bs {
+  
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+  }
+  
+  .cs {
+  
+  
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+  
+  }
+  
+  .more {
+  
+    width: 100%;
+    height: 100%;
+     overflow-x: hidden ;
+    padding-bottom: 200px;
+    background-color: rgb(232, 233, 219);
+  }
+  
+  /* nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa {
+    padding-left: 6px;
+  
+    text-align: center;
+  
+  }
+  
+  .more .btn {
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    margin-left: 115px;
+    margin-bottom: 10px;
+  
+  
+  }
+  
+  /* nnnnnnnnn */
+  .card {
+    width: 290px;
+    height: 400px;
+    margin:auto;
+  
+    border-radius: 10px;
+  }
+  
+  .more h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-weight: 500;
+    font-style: oblique;
+    border-bottom: 10pc;
+    color: black;
+  }
+  
+  
+  .axis {
+    padding-top: 50px;
+   
+    background-color: rgb(161, 160, 159);
+  }
+  
+  .axis .btn {
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+  
+  
+  .mb-3 {
+    padding-bottom: 20px;
+  }
+  
+  .add {
+  
+    width: 100%;
+    height: 100%;
+    background-image: url(./FRESH_PA_i1140.jpg);
+  }
+  
+  .next {
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    padding-left: 200px;
+  }
+  
+  .add h1 {
+  
+    padding-bottom: 300px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-weight: 500;
+    font-style: oblique;
+    border-bottom: 10pc;
+    color: aliceblue;
+  
+  }
+  
